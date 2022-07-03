@@ -1,0 +1,74 @@
+I admire the Dodgeroll mechanic of Terraria Overhaul. It promotes Horizontal Maneuvers, rather than forcing the Player to fly circles around their enemies.
+
+But some people just want standalone mechanics. Since the Dodgeroll is not a mod of its own, I took it upon myself to execute the idea in a more basic form.
+
+**What This Does**
+-You can now dodge attacks using the provided hotkey.
+-When dodging, you are lunged in the direction you are facing/moving. (configurable)
+-During this action, a certain amount of Mana is consumed. (configurable)
+-You may perform Vertical Dodges by holding "Up" while Dodging. (configurable. Off by default.)
+
+
+-Credits-
+Joost: Gave me a brief guide on how to set this up.
+Scooterboot: Showed me a few other ways of checking how the player moves to apply horizontal movement, as well as the method used for the Dodge Cooldown.
+absoluteAquarian: Pointed out to me that it's actually pretty simple to apply Added Velocity, that way I can replace the Fixed Velocity in favor of it.
+ID Software: Dodge sounds.
+Re-Logic - New Mod Icon.
+
+
+-v0.1-
+-Initial build.
+
+-v0.2-
+-Both the on-ground and mid-air dodges have had their velocity reduced from 7 to 5. (Thanks for the new calculation method, Scoot.)
+-You can no longer use items while dodging.
+
+-v0.2.1-
+-Removed the function of delaying the player's Item Use until I find a better method.
+
+-v0.2.2-
+-Rather than a fixed Velocity, Dodging adds onto it.
+-Reduced applied Velocity from 5 to 4.
+
+-v0.2.3-
+-Velocity when on ground is 5. If mid-air, it is 3.
+
+-v0.2.4-
+-Added a sound for Dodging.
+-You can no longer use items while Dodging.
+-Optimized the code.
+-Added some explanations for those who want to study.
+-Added a Homepage.
+
+-v0.3-
+-Updated the mod to tModLoader 1.4.
+-Removed unnecessary content.
+
+-v0.4-
+-To improve upon the balance of this mod, performing a Dodge now consumes 20 Mana. If the Player's Mana is below 20, they will not be able to Dodge.
+
+-v0.4.1-
+-Mana Consumption now scales with the Player's Max Mana while also retaining the incentive to increase it. (In other words, the calculation is much more dynamic.)
+-You can no longer perform a Dodge while on a mount.
+-Updated the description.
+
+-v0.5-
+-Updated the Mod Icon.
+-Tweaked the Mana Consumption. Dodging now removes a third + 5, not a fifth + 5.
+
+-v0.5.1-
+-Added a Config.
+-Moved the Credits to the Description, where it should have been.
+-Changed the default Mana Consumption (Multiplicative) from 3 to 4.
+-Added 2 sounds: Dodging on-ground and Dodging in-air.
+
+-v0.5.2-
+-Changed the default Keybind from "T" to "LeftControl". Not sure why it was "T" to begin with...
+-Cleaned up the code.
+-Added Vertical Dodging. (Disabled by default in the config.)
+-Added the option to disable Dodging.
+-Added the option to disable Dodge Mana Consumption.
+
+-v0.5.2.1-
+-Updated the mod for the June update of tModLoader.
